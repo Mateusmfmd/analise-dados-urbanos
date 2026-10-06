@@ -1,0 +1,9 @@
+[project]
+name = "analise-dados-urbanos"
+version = "0.1.0"
+description = "Pipeline offline e reproduzível de análise urbana com biblioteca padrão"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.unittest]
+# Os testes são executados diretamente com: python3 -m unittest discover -s tests -v

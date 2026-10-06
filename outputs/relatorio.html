@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relatório de análise urbana — amostra</title>
+  <style>
+    body{font-family:Arial,sans-serif;line-height:1.5;color:#172033;background:#f8fafc;max-width:1020px;margin:0 auto;padding:2rem}
+    h1,h2{color:#0f172a} .notice{background:#fff7ed;border-left:5px solid #ea580c;padding:1rem}
+    .card{background:white;border:1px solid #e2e8f0;border-radius:8px;padding:1rem;margin:1rem 0;overflow-x:auto}
+    img{max-width:100%;height:auto} table{border-collapse:collapse;width:100%}
+    th,td{border:1px solid #cbd5e1;padding:.55rem;text-align:right} th:first-child,td:first-child{text-align:left}
+    th{background:#e2e8f0} code{background:#e2e8f0;padding:.1rem .25rem}
+  </style>
+</head>
+<body>
+  <h1>Relatório de análise urbana</h1>
+  <p><strong>Execução offline e reproduzível.</strong> O conteúdo abaixo é calculado exclusivamente do arquivo <code>data/amostra_dados_urbanos.csv</code>.</p>
+  <p class="notice"><strong>Amostra, não dado real:</strong> esta é uma amostra sintética, pequena e não oficial. As métricas são descritivas do exemplo de software e não permitem conclusões sobre uma cidade, população ou período reais.</p>
+  <h2>Resumo por zona</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Zona</th><th>Registros</th><th>Residentes (total)</th><th>Área verde (m², média)</th><th>Índice de trânsito (média)</th><th>Ocupação (média)</th></tr></thead>
+      <tbody><tr><td>Centro</td><td>2</td><td>2430</td><td>2400.0</td><td>63.5</td><td>0.79</td></tr>
+<tr><td>Zona Norte</td><td>2</td><td>1985</td><td>3510.0</td><td>49.5</td><td>0.65</td></tr>
+<tr><td>Zona Sul</td><td>2</td><td>1535</td><td>1805.0</td><td>56.0</td><td>0.715</td></tr></tbody>
+    </table>
+  </div>
+  <h2>Gráficos</h2>
+  <div class="card"><h3>Residentes totais por zona</h3><img src="grafico_residentes.svg" alt="Barras horizontais de residentes totais por zona"></div>
+  <div class="card"><h3>Índice médio de trânsito por zona</h3><img src="grafico_transito.svg" alt="Barras horizontais do índice médio de trânsito por zona"></div>
+  <h2>Metodologia e limitações</h2>
+  <p>A leitura, agregação e renderização usam apenas a biblioteca padrão do Python. Consulte <a href="../metodologia.md">metodologia.md</a>, <a href="../limitacoes.md">limitacoes.md</a> e o <a href="summary.csv">CSV de resumo</a>. O campo <code>is_sample=true</code> do arquivo de entrada mantém explícito o escopo ilustrativo.</p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="206" viewBox="0 0 760 206" role="img" aria-labelledby="chart-title">
+<style>text{font-family:Arial,sans-serif;fill:#1f2937}.title{font-size:18px;font-weight:700}.label{font-size:13px}.value{font-size:12px;font-weight:700}.grid{stroke:#d1d5db;stroke-width:1}.bar{fill:#2563eb}</style>
+<text id="chart-title" class="title" x="180" y="28">Índice médio de trânsito por zona</text>
+<line class="grid" x1="180" y1="56" x2="180" y2="178" />
+<text class="label" x="168" y="81" text-anchor="end">Centro</text>
+<rect class="bar" x="180" y="67" width="550.00" height="22" rx="3" />
+<text class="value" x="738.00" y="83">63.5</text>
+<text class="label" x="168" y="119" text-anchor="end">Zona Norte</text>
+<rect class="bar" x="180" y="105" width="428.74" height="22" rx="3" />
+<text class="value" x="616.74" y="121">49.5</text>
+<text class="label" x="168" y="157" text-anchor="end">Zona Sul</text>
+<rect class="bar" x="180" y="143" width="485.04" height="22" rx="3" />
+<text class="value" x="673.04" y="159">56</text>
+</svg>

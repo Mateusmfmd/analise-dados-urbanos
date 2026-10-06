@@ -1,0 +1,7 @@
+zone,month,residents,green_area_m2,traffic_index,occupancy_rate,is_sample,source
+Centro,2025-01,1200,2400,62,0.78,true,amostra_sintetica
+Centro,2025-02,1230,2400,65,0.80,true,amostra_sintetica
+Zona Norte,2025-01,980,3500,48,0.64,true,amostra_sintetica
+Zona Norte,2025-02,1005,3520,51,0.66,true,amostra_sintetica
+Zona Sul,2025-01,760,1800,55,0.71,true,amostra_sintetica
+Zona Sul,2025-02,775,1810,57,0.72,true,amostra_sintetica
