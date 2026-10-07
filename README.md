@@ -1,4 +1,5 @@
 # Análise de dados urbanos (projeto reproduzível)
+[![CI](https://github.com/Mateusmfmd/analise-dados-urbanos/actions/workflows/ci.yml/badge.svg)](https://github.com/Mateusmfmd/analise-dados-urbanos/actions/workflows/ci.yml)
 
 Projeto didático, sem dependências externas, para demonstrar um fluxo mínimo de análise de dados urbanos: leitura de CSV, agregação por zona, exportação de resumo, gráficos SVG e relatório HTML.
 
